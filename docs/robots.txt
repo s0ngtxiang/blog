@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: sitemap.xml
+Sitemap: https://s0ngtxiang.github.io/blog/sitemap.xml
