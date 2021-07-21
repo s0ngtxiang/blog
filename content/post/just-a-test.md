@@ -1,24 +1,24 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "Just a Test"
+date: 2021-07-21T17:50:38+08:00
+lastmod: 2021-07-21T17:50:38+08:00
 draft: true
 keywords: []
 description: ""
-tags: []
+tags: [test]
 categories: []
 author: ""
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
 comment: false
-toc: true
+toc: false
 autoCollapseToc: false
-postMetaInFooter: true
+postMetaInFooter: false
 hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: true
-reward: true
+contentCopyright: false
+reward: false
 mathjax: false
 mathjaxEnableSingleDollar: false
 mathjaxEnableAutoNumber: false
@@ -40,4 +40,24 @@ sequenceDiagrams:
 
 ---
 
+this is just a test
 
+## how to write
+你们看我这个diamanté是不是有问题？
+## 怎样去弄这个？
+``` c
+#include <stdio.h>
+
+int main()
+{
+    printf("helloworld");
+}
+```
+
+``` python
+print("hello, world")
+
+```
+## 现在哈呦问题吗？
+
+他说：>100个函数操作1个数据结构远比10个函数操作10个数据结构好。

@@ -1,12 +1,12 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "Hello"
+date: 2021-07-21T17:59:42+08:00
+lastmod: 2021-07-21T17:59:42+08:00
 draft: true
 keywords: []
 description: ""
-tags: []
-categories: []
+tags: [hello, c]
+categories: [hello, world]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
@@ -39,5 +39,15 @@ sequenceDiagrams:
   options: ""
 
 ---
+## 什么情况吗这是
+``` c
+#include <stdio.h>
 
+int main()
+{
+    printf("helloworld");
+}
+```
+他说：
+> 100个函数操作1个数据结构远比10个函数操作10个数据结构好。
 
