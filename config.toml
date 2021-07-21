@@ -2,7 +2,7 @@ publishdir = "docs"
 
 
 #########################################
-baseURL = ""
+baseURL = "https://s0ngtxiang.github.io/blog/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "Song Tianxiang"
